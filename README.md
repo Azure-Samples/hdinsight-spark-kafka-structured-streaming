@@ -1,3 +1,9 @@
+---
+services: hdinsight
+platforms: scala
+author: blackmist
+---
+
 # Use Spark Structured Streaming with Apache Spark and Kafka on HDInsight
 
 This example contains two Jupyter notebooks that demonstrate the following operations:
