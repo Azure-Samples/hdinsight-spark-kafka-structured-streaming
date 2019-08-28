@@ -1,12 +1,18 @@
 ---
-services: hdinsight
-platforms: scala
-author: blackmist
+page_type: sample
+languages:
+  - java
+products:
+  - azure
+  - azure-hdinsight
+name: Use Spark Structured Streaming with Apache Spark and Kafka on HDInsight
+urlFragment: hdinsight-spark-kafka-structured-streaming
+description: "This example contains a Jupyter notebook that demonstrates how to use Apache Spark structured streaming with Apache Kafka on Azure HDInsight."
 ---
 
 # Use Spark Structured Streaming with Apache Spark and Kafka on HDInsight
 
-This example contains a Jupyter notebook that demonstrates how to use Spark structured streaming with Kafka on HDInsight
+This example contains a Jupyter notebook that demonstrates how to use Apache Spark structured streaming with Apache Kafka on HDInsight.
 
 Note: This example requires Spark 2.2.0, which is available in HDInsight 3.6. The Spark and Kafka clusters must also be in the same Azure Virtual Network. To create a resource group containing all the services needed for this example, use the resource manager template in the [Use Spark Structured Streaming with Kafka](http://docs.microsoft.com/azure/hdinsight/hdinsight-apache-kafka-spark-structured-streaming) document.
 
