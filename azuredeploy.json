@@ -206,7 +206,7 @@
               "name": "headnode",
               "targetInstanceCount": "2",
               "hardwareProfile": {
-                "vmSize": "Standard_D3_v2"
+                "vmSize": "Standard_D12_v2"
               },
               "osProfile": {
                 "linuxOperatingSystemProfile": {
@@ -221,9 +221,9 @@
             },
             {
               "name": "workernode",
-              "targetInstanceCount": 4,
+              "targetInstanceCount": 3,
               "hardwareProfile": {
-                "vmSize": "Standard_D3_v2"
+                "vmSize": "Standard_D13_v2"
               },
               "dataDisksGroups": [
                 {
@@ -245,7 +245,7 @@
               "name": "zookeepernode",
               "targetInstanceCount": "3",
               "hardwareProfile": {
-                "vmSize": "Standard_A3"
+                "vmSize": "Standard_A2_v2"
               },
               "osProfile": {
                 "linuxOperatingSystemProfile": {
